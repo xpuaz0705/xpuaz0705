@@ -6,135 +6,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style type="text/css">
-        body{
-            font-weight: bold;
-            
-        }
         table{
-            font: size 14px;
-            vertical-align: bottom;
-            text-align: center;
-            margin: 0 auto;
+           border-collapse: collapse;
         }
         td{
-            letter-spacing:5px
-            
-  
+          text-align: center;
         }
-  
+        .th{
+           background-color: #000;
+            font: size 14px;
+            color: #fff;
+            font-weight: bold;
+        }
+        .span1{
+            width: 40px;
+            display: inline-block;
+            text-align: left    ;
+        }
+        .span2{
+            width: 20px;
+            display: inline-block;
+            text-align: right;
+
+        }
     </style>
 </head>
   
 
 <body>
    
-    <table border="1" width="400" cellpadding="0" cellspacing="0" align="center" >
+    <table border="1" width="300"  align="center" >
         <tr>
-           <td colspan="3" align="center" bgcolor="#000" style="color:#fff">九九乘法表</td>
+           <td colspan="3" class="th">九九乘法表</td>
        </tr>
         <tr>
-           <td align="center" >
-               1*1= 1<br>
-               1*2= 2<br>
-               1*3= 3<br>
-               1*4= 4<br>
-               1*5= 5<br>
-               1*6= 6<br>
-               1*7= 7<br>
-               1*8= 8<br>
-               1*9= 9
-           </td>
-           <td >
-               2*1= 2<br>
-               2*2= 4<br>
-               2*3= 6<br>
-               2*4= 8<br>
-               2*5=10<br>
-               2*6=12<br>
-               2*7=14<br>
-               2*8=16<br>
-               2*9=18
-           </td>
-           <td >
-               3*1= 3 <br>
-               3*2= 6 <br>
-               3*3= 9 <br>
-               3*4=12 <br>
-               3*5=15 <br>
-               3*6=18 <br>
-               3*7=21 <br>
-               3*8=24 <br>
-               3*9=27
-           </td>
-       </tr>
-       <tr>
-           <td  >
-               4*1= 4<br>
-               4*2= 8<br>
-               4*3=12<br>
-               4*4=16<br>
-               4*5=20<br>
-               4*6=24<br>
-               4*7=28<br>
-               4*8=32<br>
-               4*9=36
-           </td>
-           <td >
-               5*1= 5<br>
-               5*2=10<br>
-               5*3=15<br>
-               5*4=20<br>
-               5*5=25<br>
-               5*6=30<br>
-               5*7=35<br>
-               5*8=40<br>
-               5*9=45
-           </td>
-           <td >
-             6*1= 6<br>
-             6*2 12<br>
-             6*3=18<br>
-             6*4=24<br>
-             6*5=35<br>
-             6*6=36<br>
-             6*7=42<br>
-             6*8=48<br>
-             6*9=54
+           <td> 
+          <span class="span">1*1</span>=<span class="span2">1</span><br>
+          <span class="span">1*2</span>=<span class="span2">2</span><br>
+          <span class="span">1*3</span>=<span class="span2">3</span><br>
+          <span class="span">1*4</span>=<span class="span2">4</span><br>
+          <span class="span">1*5</span>=<span class="span2">5</span><br>
+          <span class="span">1*6</span>=<span class="span2">6</span><br>
+          <span class="span">1*7</span>=<span class="span2">7</span><br>
+          <span class="span">1*8</span>=<span class="span2">8</span><br>
+          <span class="span">1*9</span>=<span class="span2">9</span><br>
         </td>
+           <td>
+                <span class="span">2*1</span>=<span class="span2">2</span><br>
+                <span class="span">2*2</span>=<span class="span2">4</span><br>
+                <span class="span">2*3</span>=<span class="span2">6</span><br>
+                <span class="span">2*4</span>=<span class="span2">8</span><br>
+                <span class="span">2*5</span>=<span class="span2">10</span><br>
+                <span class="span">2*6</span>=<span class="span2">12</span><br>
+                <span class="span">2*7</span>=<span class="span2">14</span><br>
+                <span class="span">2*8</span>=<span class="span2">16</span><br>
+                <span class="span">2*9</span>=<span class="span2">18</span><br>
+           </td>
+           <td>
+               <span class="span">3*1</span>=<span class="span2">3</span><br>
+               <span class="span">3*2</span>=<span class="span2">6</span><br>
+               <span class="span">3*3</span>=<span class="span2">9</span><br>
+               <span class="span">3*4</span>=<span class="span2">12</span><br>
+               <span class="span">3*5</span>=<span class="span2">15</span><br>
+               <span class="span">3*6</span>=<span class="span2">18</span><br>
+               <span class="span">3*7</span>=<span class="span2">21</span><br>
+               <span class="span">3*8</span>=<span class="span2">24</span><br>
+               <span class="span">3*9</span>=<span class="span2">27</span><br>
+           </td>
        </tr>
        <tr>
            <td>
-               7*1= 7<br >
-               7*2=14<br >
-               7*3=21<br>
-               7*4=28<br>
-               7*5=35<br>
-               7*6=42<br>
-               7*7=49<br>
-               7*8=56<br>
-               7*9=61
-           </td>
-           <td >
-               8*1= 8 <br>
-               8*2= 16<br>
-               8*3= 24<br>
-               8*4= 32<br>
-               8*5= 40<br>
-               8*6= 48<br>
-               8*7= 56<br>
-               8*8= 64<br>
-               8*9= 72
+            <span class="span">4*1</span>=<span class="span2">4</span><br>
+            <span class="span">4*2</span>=<span class="span2">8</span><br>
+            <span class="span">4*3</span>=<span class="span2">12</span><br>
+            <span class="span">4*4</span>=<span class="span2">16</span><br>
+            <span class="span">4*5</span>=<span class="span2">20</span><br>
+            <span class="span">4*6</span>=<span class="span2">24</span><br>
+            <span class="span">4*7</span>=<span class="span2">28</span><br>
+            <span class="span">4*8</span>=<span class="span2">32</span><br>
+            <span class="span">4*9</span>=<span class="span2">36</span><br>
            </td>
            <td>
-               9*1=  9<br>
-               9*2= 18<br>
-               9*3= 27<br>
-               9*4= 36<br>
-               9*5= 45<br>
-               9*6= 54<br>
-               9*7= 63<br>
-               9*8= 72<br>
-               9*9= 81
+            <span class="span">5*1</span>=<span class="span2">5</span><br>
+            <span class="span">5*2</span>=<span class="span2">10</span><br>
+            <span class="span">5*3</span>=<span class="span2">15</span><br>
+            <span class="span">5*4</span>=<span class="span2">20</span><br>
+            <span class="span">5*5</span>=<span class="span2">25</span><br>
+            <span class="span">5*6</span>=<span class="span2">30</span><br>
+            <span class="span">5*7</span>=<span class="span2">35</span><br>
+            <span class="span">5*8</span>=<span class="span2">40</span><br>
+            <span class="span">5*9</span>=<span class="span2">45</span><br>
+           </td>
+           <td>
+            <span class="span">6*1</span>=<span class="span2">6</span><br>
+            <span class="span">6*2</span>=<span class="span2">12</span><br>
+            <span class="span">6*3</span>=<span class="span2">18</span><br>
+            <span class="span">6*4</span>=<span class="span2">24</span><br>
+            <span class="span">6*5</span>=<span class="span2">30</span><br>
+            <span class="span">6*6</span>=<span class="span2">36</span><br>
+            <span class="span">6*7</span>=<span class="span2">42</span><br>
+            <span class="span">6*8</span>=<span class="span2">48</span><br>
+            <span class="span">6*9</span>=<span class="span2">54</span><br>
+           </td>
+       </tr>
+       <tr>
+           <td>
+            <span class="span">7*1</span>=<span class="span2">7</span><br>
+            <span class="span">7*2</span>=<span class="span2">14</span><br>
+            <span class="span">7*3</span>=<span class="span2">21</span><br>
+            <span class="span">7*4</span>=<span class="span2">28</span><br>
+            <span class="span">7*5</span>=<span class="span2">35</span><br>
+            <span class="span">7*6</span>=<span class="span2">42</span><br>
+            <span class="span">7*7</span>=<span class="span2">49</span><br>
+            <span class="span">7*8</span>=<span class="span2">56</span><br>
+            <span class="span">7*9</span>=<span class="span2">63</span><br>
+           </td>
+           <td>
+            <span class="span">8*1</span>=<span class="span2">8</span><br>
+            <span class="span">8*2</span>=<span class="span2">16</span><br>
+            <span class="span">8*3</span>=<span class="span2">24</span><br>
+            <span class="span">8*4</span>=<span class="span2">32</span><br>
+            <span class="span">8*5</span>=<span class="span2">40</span><br>
+            <span class="span">8*6</span>=<span class="span2">48</span><br>
+            <span class="span">8*7</span>=<span class="span2">56</span><br>
+            <span class="span">8*8</span>=<span class="span2">64</span><br>
+            <span class="span">8*9</span>=<span class="span2">72</span><br>
+           </td>
+           <td>
+            <span class="span">9*1</span>=<span class="span2">9</span><br>
+            <span class="span">9*2</span>=<span class="span2">18</span><br>
+            <span class="span">9*3</span>=<span class="span2">27</span><br>
+            <span class="span">9*4</span>=<span class="span2">36</span><br>
+            <span class="span">9*5</span>=<span class="span2">45</span><br>
+            <span class="span">9*6</span>=<span class="span2">54</span><br>
+            <span class="span">9*7</span>=<span class="span2">63</span><br>
+            <span class="span">9*8</span>=<span class="span2">72</span><br>
+            <span class="span">9*9</span>=<span class="span2">81</span><br>
            </td>
        </tr>
    </table>
